@@ -1,0 +1,6 @@
+import tensorflow as tf
+
+# load fashion mnist dataset
+fashion_mnist_data = tf.keras.datasets.fashion_mnist.load_data()
+
+print(type(fashion_mnist_data)) #<class 'tuple'>
