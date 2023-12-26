@@ -29,6 +29,7 @@ y_validation = y_train_all[-5000:]
 #print(X_train[0])
 #print(X_train.dtype) #uint8
 
+#scale data
 X_train, X_validation, X_test = X_train/255.0, X_validation/255.0, X_test/255.0
 
 #look data again
